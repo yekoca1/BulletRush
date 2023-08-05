@@ -2,21 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Controller
 {
     [SerializeField] private TouchController input;
-    [SerializeField] private Rigidbody rigidbody;
-    [SerializeField] private float speed;
-    public void move(Vector3 direction)
-    {
-        rigidbody.velocity = direction*speed*Time.deltaTime;
-    }
-
-    // Update is called once per frame
+    [SerializeField] private ShootController shootController;
     void FixedUpdate()
     {
         var par = new Vector3(input.direction.x, 0, input.direction.y);
         move(par);
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.transform.CompareTag("Enemy"))
+        {
+            Death();
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.transform.CompareTag("Enemy"))
+        {
+            var direction = other.transform.position - transform.position;
+            direction.y = 0;
+            direction = direction.normalized; //normalize edilmeli
+            shootController.Shoot(direction, transform.position);
+            transform.LookAt(other.transform); 
+        }
+    }
+    private void Death()
+    {
+        Time.timeScale = 0;
     }
 }
 

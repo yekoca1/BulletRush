@@ -358,7 +358,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/BulletController.cs"
+"Assets/Scripts/Controller.cs"
+"Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/ShootController.cs"
 "Assets/Scripts/TouchController.cs"
 -langversion:9.0
 
