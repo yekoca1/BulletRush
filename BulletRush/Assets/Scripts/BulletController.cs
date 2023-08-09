@@ -8,6 +8,7 @@ public class BulletController : MonoBehaviour
     private Vector3 movement;
     public void Fire(Vector3 direction)
     {
+        //Debug.Log(direction.magnitude);
         movement = direction*speed*Time.fixedDeltaTime;
     }
 

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - Bullet
+  - Ocean
+  - Engel
+  - End
   layers:
   - Default
   - TransparentFX
