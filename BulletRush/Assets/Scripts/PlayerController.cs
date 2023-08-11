@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : Controller
 {
@@ -11,11 +12,19 @@ public class PlayerController : Controller
     public MyGameManager gameManager;
     private bool isLookingEnemy;
 
+    public int initialCount;
+    public Image enemyBar;
+    private float count;
+
 
     void Start()
     {
+        count = initialCount;
         gameManager = FindObjectOfType<MyGameManager>();
         isLookingEnemy = false;
+
+        GameObject barObject = GameObject.Find("bar");
+        enemyBar = barObject.GetComponent<Image>();
     }
     void FixedUpdate()
     {
@@ -34,6 +43,7 @@ public class PlayerController : Controller
                 transform.LookAt(targetPosition);
             }
         }
+        enemyBar.fillAmount = count / initialCount;
     }
     void Update()
     {
@@ -111,6 +121,11 @@ public class PlayerController : Controller
             StartCoroutine(Do());
             
         }
+    }
+
+    public void decreaseBar()
+    {
+        count--;
     }
     
 }
