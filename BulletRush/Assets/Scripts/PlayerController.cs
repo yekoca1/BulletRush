@@ -35,6 +35,24 @@ public class PlayerController : Controller
             }
         }
     }
+    void Update()
+    {
+        if (enemies.Count > 0)
+        {
+            transform.LookAt(enemies[0]);
+        }
+        else
+        {
+            // Eğer düşman yoksa, fare tıklandığında karakterin x ekseni doğrultusunda ileri bakmasını sağlar.
+            if (Input.GetMouseButtonDown(0)) // 0 sol tık anlamına gelir, sağ tık için 1 kullanabilirsiniz.
+            {
+                var forwardDirection = new Vector3(0, 0, 1); // X ekseni doğrultusunda ileri vektörü
+                transform.LookAt(transform.position + forwardDirection);
+            }
+        }
+    }
+
+
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.transform.CompareTag("Enemy"))
@@ -79,7 +97,7 @@ public class PlayerController : Controller
                 direction.y = 0;
                 direction = direction.normalized; //normalize edilmeli
                 shootController.Shoot(direction, transform.position);
-                transform.LookAt(enemy.transform);
+                //transform.LookAt(enemy.transform);
                 enemies.RemoveAt(0);
                 yield return new WaitForSeconds(shootController.delay);
                 isLookingEnemy = true;

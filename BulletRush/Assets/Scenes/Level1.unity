@@ -791,6 +791,7 @@ MonoBehaviour:
   rigidbody: {fileID: 101338941}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &101338941
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1059,6 +1060,7 @@ MonoBehaviour:
   rigidbody: {fileID: 110108742}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &110108742
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1403,6 +1405,7 @@ MonoBehaviour:
   rigidbody: {fileID: 141728720}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &141728720
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1498,7 +1501,7 @@ Transform:
   - {fileID: 723316939}
   - {fileID: 1411542712}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &181770173
 GameObject:
@@ -1747,6 +1750,7 @@ MonoBehaviour:
   rigidbody: {fileID: 219532380}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &219532380
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1842,7 +1846,7 @@ Transform:
   - {fileID: 1241227001}
   - {fileID: 964756248}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &221041791
 GameObject:
@@ -2321,7 +2325,7 @@ Transform:
   - {fileID: 2894681294954705022}
   - {fileID: 4998812974618936939}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!54 &265116769
 Rigidbody:
@@ -2354,6 +2358,7 @@ MonoBehaviour:
   rigidbody: {fileID: 265116769}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!1 &288227901
 GameObject:
   m_ObjectHideFlags: 0
@@ -2473,6 +2478,7 @@ MonoBehaviour:
   rigidbody: {fileID: 313413446}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &313413446
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2606,6 +2612,7 @@ MonoBehaviour:
   rigidbody: {fileID: 327584592}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &327584592
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2822,6 +2829,7 @@ MonoBehaviour:
   rigidbody: {fileID: 351307503}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &351307503
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3038,6 +3046,7 @@ MonoBehaviour:
   rigidbody: {fileID: 386019075}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &386019075
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3171,6 +3180,7 @@ MonoBehaviour:
   rigidbody: {fileID: 395601539}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &395601539
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3266,7 +3276,7 @@ Transform:
   - {fileID: 75696346}
   - {fileID: 332163280}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &398390858
 GameObject:
@@ -3413,7 +3423,7 @@ Transform:
   - {fileID: 181770174}
   - {fileID: 2126197831}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &416856444
 GameObject:
@@ -3805,6 +3815,7 @@ MonoBehaviour:
   rigidbody: {fileID: 472964677}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &472964677
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3900,7 +3911,7 @@ Transform:
   - {fileID: 895718769}
   - {fileID: 1512894031}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &474378039
 GameObject:
@@ -4221,6 +4232,7 @@ MonoBehaviour:
   rigidbody: {fileID: 541514026}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &541514026
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4464,7 +4476,7 @@ Transform:
   - {fileID: 398390859}
   - {fileID: 2115486373}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &551332115
 GameObject:
@@ -4502,6 +4514,7 @@ MonoBehaviour:
   rigidbody: {fileID: 551332117}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &551332117
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4597,7 +4610,7 @@ Transform:
   - {fileID: 2080140482}
   - {fileID: 1013770798}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &566961259
 GameObject:
@@ -4826,7 +4839,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &616060081
 GameObject:
@@ -5248,6 +5261,7 @@ MonoBehaviour:
   rigidbody: {fileID: 647374905}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &647374905
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5559,6 +5573,7 @@ MonoBehaviour:
   rigidbody: {fileID: 691155616}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &691155616
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6014,7 +6029,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &763035542
 GameObject:
@@ -6135,6 +6150,7 @@ MonoBehaviour:
   rigidbody: {fileID: 779491721}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &779491721
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6332,7 +6348,7 @@ Transform:
   - {fileID: 1894695577}
   - {fileID: 1135814758}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &824156261
 GameObject:
@@ -6370,6 +6386,7 @@ MonoBehaviour:
   rigidbody: {fileID: 824156263}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &824156263
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6465,7 +6482,7 @@ Transform:
   - {fileID: 2031679514}
   - {fileID: 1419688828}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &853461749
 GameObject:
@@ -6650,7 +6667,7 @@ Transform:
   - {fileID: 1452248430}
   - {fileID: 1220932683}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &883065159
 GameObject:
@@ -6688,6 +6705,7 @@ MonoBehaviour:
   rigidbody: {fileID: 883065161}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &883065161
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6866,6 +6884,7 @@ MonoBehaviour:
   rigidbody: {fileID: 888109873}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &888109873
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6999,6 +7018,7 @@ MonoBehaviour:
   rigidbody: {fileID: 889425184}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &889425184
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7381,6 +7401,7 @@ MonoBehaviour:
   rigidbody: {fileID: 933906902}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &933906902
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7476,7 +7497,7 @@ Transform:
   - {fileID: 698174452}
   - {fileID: 1929112068}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &955631311
 GameObject:
@@ -7861,6 +7882,7 @@ MonoBehaviour:
   rigidbody: {fileID: 983168540}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &983168540
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7956,7 +7978,7 @@ Transform:
   - {fileID: 1470975334}
   - {fileID: 1992914341}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &1001512746
 GameObject:
@@ -7994,6 +8016,7 @@ MonoBehaviour:
   rigidbody: {fileID: 1001512748}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &1001512748
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8444,7 +8467,7 @@ RectTransform:
   - {fileID: 1251851375}
   - {fileID: 1365157914}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8954,6 +8977,7 @@ MonoBehaviour:
   rigidbody: {fileID: 1126224808}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &1126224808
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10303,6 +10327,7 @@ MonoBehaviour:
   rigidbody: {fileID: 1292553613}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &1292553613
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10436,6 +10461,7 @@ MonoBehaviour:
   rigidbody: {fileID: 1312429734}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &1312429734
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10531,7 +10557,7 @@ Transform:
   - {fileID: 955631312}
   - {fileID: 111676601}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &1343339760
 GameObject:
@@ -10569,6 +10595,7 @@ MonoBehaviour:
   rigidbody: {fileID: 1343339762}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &1343339762
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11081,7 +11108,7 @@ Transform:
   - {fileID: 1005299038}
   - {fileID: 1684559457}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1419688827
 GameObject:
@@ -11330,6 +11357,7 @@ MonoBehaviour:
   rigidbody: {fileID: 1467998094}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &1467998094
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11629,6 +11657,7 @@ MonoBehaviour:
   rigidbody: {fileID: 1499177214}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &1499177214
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11724,7 +11753,7 @@ Transform:
   - {fileID: 21040089}
   - {fileID: 1196032582}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &1512894030
 GameObject:
@@ -11890,6 +11919,7 @@ MonoBehaviour:
   rigidbody: {fileID: 1582771421}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &1582771421
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12445,6 +12475,7 @@ MonoBehaviour:
   rigidbody: {fileID: 1714816580}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &1714816580
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12540,7 +12571,7 @@ Transform:
   - {fileID: 639829924}
   - {fileID: 1141321235}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &1724556439
 GameObject:
@@ -12687,7 +12718,7 @@ Transform:
   - {fileID: 228575876}
   - {fileID: 1103462146}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1772977791
 GameObject:
@@ -12770,6 +12801,7 @@ MonoBehaviour:
   rigidbody: {fileID: 1779182482}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &1779182482
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12903,6 +12935,7 @@ MonoBehaviour:
   rigidbody: {fileID: 1810759948}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &1810759948
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12998,7 +13031,7 @@ Transform:
   - {fileID: 1085722681}
   - {fileID: 1035738660}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &1820604290
 GameObject:
@@ -13202,6 +13235,7 @@ MonoBehaviour:
   rigidbody: {fileID: 1831510558}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &1831510558
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14213,6 +14247,7 @@ MonoBehaviour:
   rigidbody: {fileID: 2044531715}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &2044531715
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14410,7 +14445,7 @@ Transform:
   - {fileID: 2083954957}
   - {fileID: 2060076752}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2060076751
 GameObject:
@@ -14493,6 +14528,7 @@ MonoBehaviour:
   rigidbody: {fileID: 2072451140}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &2072451140
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15365,6 +15401,7 @@ MonoBehaviour:
   rigidbody: {fileID: 2123815316}
   speed: 200
   player: {fileID: 3456491558863859534}
+  deadPartical: {fileID: 19860484, guid: 6586ff0f14125534cae2f5d8f04b7871, type: 3}
 --- !u!54 &2123815316
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15460,7 +15497,7 @@ Transform:
   - {fileID: 955983508}
   - {fileID: 1701536028}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &2126197830
 GameObject:
@@ -15723,7 +15760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 6589355406288732941, guid: 8e21105255903f748b7f6492fa690421, type: 3}
-  delay: 0.1
+  delay: 0.2
 --- !u!65 &3640244364600368545
 BoxCollider:
   m_ObjectHideFlags: 0
