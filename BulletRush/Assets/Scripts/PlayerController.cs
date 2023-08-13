@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerController : Controller
 {
@@ -11,12 +12,15 @@ public class PlayerController : Controller
 
     public MyGameManager gameManager;
     private bool isLookingEnemy;
+    public GameObject end;
 
     public int initialCount;
     public Image enemyBar;
     private float count;
 
-
+    public TextMeshProUGUI info;
+    public GameObject back;
+    SoundManager soundManager;
     void Start()
     {
         count = initialCount;
@@ -25,6 +29,14 @@ public class PlayerController : Controller
 
         GameObject barObject = GameObject.Find("bar");
         enemyBar = barObject.GetComponent<Image>();
+
+        end = GameObject.Find("hedef");
+        info = GameObject.Find("info").GetComponent<TextMeshProUGUI>();
+        back = GameObject.Find("BackVoice");
+        soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
+
+        end.SetActive(false);
+        info.gameObject.SetActive(false);
     }
     void FixedUpdate()
     {
@@ -60,6 +72,12 @@ public class PlayerController : Controller
                 transform.LookAt(transform.position + forwardDirection);
             }
         }
+        
+        if(count == 0)
+        {
+            end.SetActive(true);
+            info.gameObject.SetActive(true);
+        }
     }
 
 
@@ -67,15 +85,21 @@ public class PlayerController : Controller
     {
         if(collision.transform.CompareTag("Enemy"))
         {
+            soundManager.Fail();
+            back.GetComponent<AudioSource>().Stop();
             gameManager.Death();
         }
         if(collision.transform.CompareTag("Engel"))
         {
+            soundManager.Fail();
             gameObject.SetActive(false);
             gameManager.Death();
+            back.GetComponent<AudioSource>().Stop();
         }
         if(collision.transform.CompareTag("End"))
         {
+            back.GetComponent<AudioSource>().Stop();
+            soundManager.Finish();
             gameManager.Win();            
         }
     }

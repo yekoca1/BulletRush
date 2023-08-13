@@ -367,6 +367,7 @@
 "Assets/Scripts/MyGameManager.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/ShootController.cs"
+"Assets/Scripts/SoundManager.cs"
 "Assets/Scripts/TouchController.cs"
 -langversion:9.0
 

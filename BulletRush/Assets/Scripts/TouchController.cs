@@ -9,20 +9,20 @@ public class TouchController : MonoBehaviour , IPointerDownHandler, IPointerUpHa
     public Vector2 direction;
     public void OnPointerDown(PointerEventData eventData)
     {
-        //Debug.Log("dokundu");
+        Debug.Log("dokundu");
         touchPosition = eventData.position; //dokunduğu yerin poszisyonu değişkene eşitledik..!
         pivotImage.enabled = true;
         pivotImage.transform.position = touchPosition;
     }
     public void OnPointerUp(PointerEventData eventData)
     {
-        //Debug.Log("bıraktı");
+        Debug.Log("bıraktı");
         direction = Vector3.zero;
         pivotImage.enabled = false;
     }
     public void OnDrag(PointerEventData eventData)
     {
-        //Debug.Log("sürüklüyor");
+        Debug.Log("sürüklüyor");
         var delta = eventData.position - touchPosition;
         direction = delta.normalized;
     }
