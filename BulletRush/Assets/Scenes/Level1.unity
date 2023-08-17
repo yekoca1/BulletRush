@@ -5048,7 +5048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6c31d45a8226a8458d71ca5fbeb974c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelName: Level2
+  nextLevelName: Level3
   levelText: {fileID: 0}
   nextButton: {fileID: 0}
   restartButton: {fileID: 0}
@@ -16385,8 +16385,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ed7e9b5fa86874493dae07e3ea37e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 6589355406288732941, guid: 8e21105255903f748b7f6492fa690421, type: 3}
-  delay: 0.15
+  bulletPrefab: {fileID: 6513949554384530901, guid: 8e21105255903f748b7f6492fa690421, type: 3}
+  delay: 0.22
   soundManager: {fileID: 558277797}
 --- !u!65 &3640244364600368545
 BoxCollider:
